@@ -24,9 +24,20 @@ The discussions in Canvas are rich with content that serve as a great data sourc
 Feeling stuck? [Check out this past hackathon repo for more ideas!](https://github.com/UBC-LA-Hackathon/student-dashboard)
 
 ## 🧰 Where to Start
-You can decide with your team what programming languages and frameworks/libraries to work with. If you need somewhere to get started, check out these two starter kits that we created: 
+You can decide with your team what programming languages and frameworks/libraries to work with. If you need somewhere to get started with using the Canvas API, check out these two starter kits that we created: 
 * [Getting Started with the Canvas API with Node.js/JavaScript](https://github.com/ubc/getting-started-with-the-canvas-api-with-node)
 * [Getting Started with the Canvas API with Python](https://github.com/ubc/getting-started-with-the-canvas-api-with-python)
+
+### 🍴 Fork this repo
+To keep all of the repositories you'll be creating loosely linked to this repo, please: 
+
+1. Fork this repo.
+![fork](./_assets/fork.png)
+1. Copy clone link.
+![clone](./_assets/clone.png)
+1. Open terminal on Mac or command line on Windows. We like to use [VSCode's integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal), as it works for both Mac and PC.
+1. Clone repo. `git clone {paste URL you copied}`
+1. Navigate into repo. `cd hack-la-2024`
 
 ## 📚 What You'll Learn
 By participating in this hackathon, you'll learn to:
@@ -53,4 +64,3 @@ Please ask the volunteers and your peers for help. We're all here to learn toget
 - [NodeJS Canvas API Starter Kit](https://github.com/ubc/getting-started-with-the-canvas-api-with-node)
 - [Canvas API Documentation](https://canvas.instructure.com/doc/api/)
 - [Canvas API Live](https://canvas.ubc.ca/doc/api/live#!/)
-
