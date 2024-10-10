@@ -21,6 +21,8 @@ Welcome to the 10th Learning Analytics hackathon. This year, the goal is for you
 ## 🔨 What You'll Build
 The discussions in Canvas are rich with content that serve as a great data source for learning analytics, allowing educators, researchers, and intelligent hackathon participants to analyze student engagement, collaboration, sentiment, learning progress, among other factors to help improve teaching and learning. Your task is to build something that can be used to analyze and make sense of this discussion data. 
 
+Feeling stuck? [Check out this past hackathon repo for more ideas!](https://github.com/UBC-LA-Hackathon/student-dashboard)
+
 ## Where to start
 You can decide with your team what programming languages and frameworks/libraries to work with. If you need somewhere to get started, check out these two starter kits that we created: 
 * [Getting Started with the Canvas API with Node.js/JavaScript](https://github.com/ubc/getting-started-with-the-canvas-api-with-node)
