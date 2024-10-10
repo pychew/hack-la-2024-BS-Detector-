@@ -19,7 +19,12 @@ Welcome to the 10th Learning Analytics hackathon. This year, the goal is for you
 * 7pm - End of Hackathon!
 
 ## 🔨 What You'll Build
-You can decide with your team what programming languages and frameworks/libraries to work with. 
+The discussions in Canvas are rich with content that serve as a great data source for learning analytics, allowing educators, researchers, and intelligent hackathon participants to analyze student engagement, collaboration, sentiment, learning progress, among other factors to help improve teaching and learning. Your task is to build something that can be used to analyze and make sense of this discussion data. 
+
+## Where to start
+You can decide with your team what programming languages and frameworks/libraries to work with. If you need somewhere to get started, check out these two starter kits that we created: 
+* [Getting Started with the Canvas API with Node.js/JavaScript](https://github.com/ubc/getting-started-with-the-canvas-api-with-node)
+* [Getting Started with the Canvas API with Python](https://github.com/ubc/getting-started-with-the-canvas-api-with-python)
 
 ## 📚 What You'll Learn
 By participating in this hackathon, you'll learn to:
@@ -35,15 +40,7 @@ By participating in this hackathon, you'll learn to:
 ## 🤔 Ask For Help
 Please ask the volunteers and your peers for help. We're all here to learn together!
 
-## ⚙️ Getting Started
-### Prerequisites
-1. **Install [Git](https://git-scm.com/downloads)**.
-1. **Install [Python](https://www.python.org/)** (if you want to use our [starter kit](./rename_me/starter.ipynb)).
-1. **Install [Jupyter notebooks](https://jupyter.org/install)** (if you want to use our [starter kit](./rename_me/starter.ipynb)).
-1. **Install [Visual Studio Code](https://code.visualstudio.com/)** (optional but recommended).
-
-#
-### Final Submission
+## Final Submission
 1. Update the `final_submission_template.md` that is inside your group's folder. 
 1. Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) from your forked repo to the [original repo](https://github.com/UBC-LA-Hackathon/hack-la-2023).
 1. Your pull request will be merged after it is reviewed.  
