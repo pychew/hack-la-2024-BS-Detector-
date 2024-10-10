@@ -23,7 +23,7 @@ The discussions in Canvas are rich with content that serve as a great data sourc
 
 Feeling stuck? [Check out this past hackathon repo for more ideas!](https://github.com/UBC-LA-Hackathon/student-dashboard)
 
-## 🧰 Where to start
+## 🧰 Where to Start
 You can decide with your team what programming languages and frameworks/libraries to work with. If you need somewhere to get started, check out these two starter kits that we created: 
 * [Getting Started with the Canvas API with Node.js/JavaScript](https://github.com/ubc/getting-started-with-the-canvas-api-with-node)
 * [Getting Started with the Canvas API with Python](https://github.com/ubc/getting-started-with-the-canvas-api-with-python)
