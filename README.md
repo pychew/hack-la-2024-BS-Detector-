@@ -44,7 +44,6 @@ To keep all of the repositories you'll be creating loosely linked to this repo, 
 By participating in this hackathon, you'll learn to:
 
 * use the [Canvas API](https://canvas.instructure.com/doc/api/)
-* use the [Canvas Live Events data](https://canvas.instructure.com/doc/api/file.data_service_introduction.html)
 * explore the data that [Canvas collects from you](https://learninganalytics.ubc.ca/ethics-policy/students-learning-analytics-and-privacy/)
 * contribute to [open source projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) (like this hackathon!)
 * apply data analytics and programming skills
