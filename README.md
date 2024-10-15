@@ -38,6 +38,7 @@ To keep all of the repositories you'll be creating loosely linked to this repo, 
 1. Open terminal on Mac or command line on Windows. We like to use [VSCode's integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal), as it works for both Mac and PC.
 1. Clone repo. `git clone {paste URL you copied}`
 1. Navigate into repo. `cd hack-la-2024`
+1. Create your project in this repo.
 
 ## 📚 What You'll Learn
 By participating in this hackathon, you'll learn to:
@@ -52,11 +53,6 @@ By participating in this hackathon, you'll learn to:
 
 ## 🤔 Ask For Help
 Please ask the volunteers and your peers for help. We're all here to learn together!
-
-## Final Submission
-1. Update the `final_submission_template.md` that is inside your group's folder. 
-1. Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) from your forked repo to the [original repo](https://github.com/UBC-LA-Hackathon/hack-la-2023).
-1. Your pull request will be merged after it is reviewed.  
 
 ## Additional resources:
 - [Guide for using the Canvas API](https://learninganalytics.ubc.ca/for-students/canvas-api/)
