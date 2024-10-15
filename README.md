@@ -4,8 +4,8 @@ Welcome to the 10th Learning Analytics hackathon. This year, the goal is for you
 ## Before the Hackathon
 * Please **[register](https://events.ctlt.ubc.ca/events/2024-fall-learning-analytics-hackathon/)** for the hackathon if you haven't ready done so.
 * Find a team (we suggest at least 3 per team, with a **maximum of 5**) (you will sign up your team in Canvas once we send the enrolment link). Individual team members **should all register for the event!** 
-* Review the challenge details, data, and other materials (to be provided in Canvas at least 2 weeks before the event) 
-* Some details are still being planned, and we will communicate after registration 
+* Review the challenge details, data, and other materials (to be provided in Canvas at least 2 weeks before the event).
+* Some details are still being planned, and we will communicate after registration.
 
 ## 📅 Schedule
 ### Saturday October 19th
