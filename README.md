@@ -50,6 +50,9 @@ By participating in this hackathon, you'll learn to:
 * work in a team
 * build cool stuff!
 
+### 🚀 "Submitting" and Presentations
+This repo contains the file `submission.md`. Please fill this out including any links or additional information about your  project and presentation. When you're ready you can make a PR (which won't be merged, but will be a branch) so that we can find your content! 
+
 ## 🤔 Ask For Help
 Please ask the volunteers and your peers for help. We're all here to learn together!
 
