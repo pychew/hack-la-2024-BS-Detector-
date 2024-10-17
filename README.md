@@ -51,7 +51,21 @@ By participating in this hackathon, you'll learn to:
 * build cool stuff!
 
 ## 🚀 "Submitting" and Presentations
-This repo contains the file `submission.md`. Please fill this out including any links or additional information about your  project and presentation. When you're ready you can make a PR (which won't be merged, but will be a branch) so that we can find your content! 
+This repo contains the file `submission.md`. Please fill this out including any links or additional information about your  project and presentation. You can add any project folders/files here too! 
+
+⚠️ Be careful to avoid committing: real data containing private information or intellectual property or Canvas API tokens!
+
+When you're ready you can make a PR (which won't be merged!) so that we can find your content! 
+
+1. From your fork once you've made all of your commits (including updating submissions.md) you can open a pull request
+![open PR from fork](./_assets/openPR1.png)
+
+2. Add a title and description (your team name and project description would be good here)
+![add title and description](./_assets/openPR2.png)
+
+3. Now you can see your PR associated with the hack-la-2024 repo! 
+![see PRs](./_assets/openPR3.png)
+
 
 ## 🤔 Ask For Help
 Please ask the volunteers and your peers for help. We're all here to learn together!
