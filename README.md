@@ -63,7 +63,9 @@ When you're ready you can make a PR (which won't be merged!) so that we can find
 2. Add a title and description (your team name and project description would be good here)
 ![add title and description](./_assets/openPR2.png)
 
-3. Now you can see your PR associated with the hack-la-2024 repo! 
+**Note:** It is normal to see warnings "Review required" and "Merging is blocked" (we aren't going to be merging your PRs into the main repo).
+
+3. If you return to the main repo https://github.com/UBC-LA-Hackathon/hack-la-2024 and look at Pull Requests, you can see your PR associated with the hack-la-2024 repo! 
 ![see PRs](./_assets/openPR3.png)
 
 
