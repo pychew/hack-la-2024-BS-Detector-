@@ -1,0 +1,772 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  .title{
+    color: beige;
+  }
+
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1e9e9;
+  }
+  button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+  #myDIV {
+    width: 50%;
+    padding: 50px 0;
+    text-align: left;
+    margin-top: 20px;
+  }
+  button, input[type="submit"], input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 2px;
+    border-style: solid;
+    border: beige;
+
+    <!-- HERE -->
+  }
+  /*To style the table color*/
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #c5eaea;
+  }
+
+  *.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #111;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: beige;
+  }
+
+  
+  /* If you want the content centered horizontally and vertically */
+  /* .centered {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
+  
+
+  </style>
+<h1>BS Detector</h1>
+
+
+<h3>This is where you need to go:</h3>
+<div class="split left">
+    <div class="centered">
+<body>
+
+  <h2 class ="title">PHIL 331 Discussion</h2>
+  <button type="button" class="collapsible">Assignment 1</button>
+  <div class="content">
+
+    <p>
+      <table>
+        <tr>
+          <th>Student ID</th>
+          <th>GenAI</th>
+          <th>Online Sources</th>
+          <th>Other students</th>
+        </tr>
+        <tr>
+          <td> <button onclick="myFunction()">1234501</button></td>
+          <td> <div class="w3-light-grey">
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-green w3-round-xlarge" style="width:100%">100% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:100%">100% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:94%">94% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234502</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+          <td> <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:84%">84% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+          
+        </tr>
+        <tr>
+          <td> 1234503</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234504</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:16%">16% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:70%">70% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234505</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:37%">37% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:83%">83% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:30%">30% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234506</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:55%">55% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:40%">40% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234507</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:27%">27% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:86%">86% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234508</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:47%">47% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:58%">58% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234509</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:83%">83% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234510</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:97%">97% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:88%">88% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:80%">80% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234511</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234512</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:87%">87% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:32%">32% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234513</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:53%">53% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:22%">22% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:63%">63% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234514</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:73%">73% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:67%">67% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+        </tr>
+        <tr>
+          <td> 1234515</td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:19%">19% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-red w3-round-xlarge" style="width:44%">44% Original</div></td>
+          <td><div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:50%">50% Original</div></td>
+        </tr>
+        
+        
+      </table>
+    </p>
+  </div>
+  
+  
+  <button type="button" class="collapsible">Assignment 2</button>
+  <div class="content">
+    <table>
+      <tr>
+        <th>Student ID</th>
+        <th>GenAI</th>
+        <th>Online Sources</th>
+        <th>Other students</th>
+      </tr>
+      <tr>
+        <td> 1234501</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234502</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:37%">37% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:80%">80% Original</div></td>
+        
+      </tr>
+      <tr>
+        <td> 1234503</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:54%">54% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:26%">26% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-redd w3-round-xlarge" style="width:5%">5% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234504</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:44%">44% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:16%">16% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:70%">70% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234505</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:88%">88% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234506</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:97%">97% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234507</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:55%">55% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:55%">55% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234508</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234509</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:33%">33% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:20%">20% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234510</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:7%">7% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:6%">6% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:0%">0% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234511</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-greenw3-round-xlarge" style="width:100%">100% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:100%">100% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:0%">0% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234512</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234513</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:7%">7% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:4%">4% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234514</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234515</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-greenw3-round-xlarge" style="width:87%">87% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:96%">96% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:63%">63% Original</div></td>
+      </tr>
+      
+      
+    </table>
+  </div>
+  <br>
+  <button type="button" class="collapsible">Assignment 3</button>
+  <div class="content">
+    <table>
+      <tr>
+        <th>Student ID</th>
+        <th>GenAI</th>
+        <th>Online Sources</th>
+        <th>Other students</th>
+      </tr>
+      <tr>
+        <td> 1234501</td>
+        <td> <div class="w3-light-grey">
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:100%">100% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:100%">100% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:94%">94% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234502</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+        <td> <div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:84%">84% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        
+      </tr>
+      <tr>
+        <td> 1234503</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234504</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:16%">16% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:70%">70% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234505</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:37%">37% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:83%">83% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:30%">30% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234506</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:55%">55% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:40%">40% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234507</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:27%">27% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:86%">86% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234508</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:47%">47% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:58%">58% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234509</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:83%">83% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234510</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:97%">97% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:88%">88% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:80%">80% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234511</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234512</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:87%">87% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:32%">32% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234513</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:53%">53% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:22%">22% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:63%">63% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234514</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:73%">73% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:67%">67% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234515</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:19%">19% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:44%">44% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:50%">50% Original</div></td>
+      </tr>
+      
+      
+    </table>  
+  </div>
+  <br>
+  <button type="button" class="collapsible">Assignment 4</button>
+  <div class="content">
+    <table>
+      <tr>
+        <th>Student ID</th>
+        <th>GenAI</th>
+        <th>Online Sources</th>
+        <th>Other students</th>
+      </tr>
+      <tr>
+        <td> 1234501</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234502</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:37%">37% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:80%">80% Original</div></td>
+        
+      </tr>
+      <tr>
+        <td> 1234503</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:54%">54% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:26%">26% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-redd w3-round-xlarge" style="width:5%">5% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234504</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:44%">44% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:16%">16% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:70%">70% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234505</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:88%">88% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234506</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:97%">97% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234507</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:55%">55% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:55%">55% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234508</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234509</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:33%">33% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:20%">20% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234510</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:7%">7% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:6%">6% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:0%">0% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234511</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-greenw3-round-xlarge" style="width:100%">100% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:100%">100% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:0%">0% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234512</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234513</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:7%">7% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:4%">4% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234514</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-red w3-round-xlarge" style="width:46%">46% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
+      </tr>
+      <tr>
+        <td> 1234515</td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-greenw3-round-xlarge" style="width:87%">87% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-green w3-round-xlarge" style="width:96%">96% Original</div></td>
+        <td><div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-yellow w3-round-xlarge" style="width:63%">63% Original</div></td>
+      </tr>
+      
+      
+    </table>
+  </div>
+  
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("inactive");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
+  
+  </body>
+</div>
+</div>
+
+<div class="split right" id="myDIV">
+  <div class="centered">
+    <h2>John Doe</h2>
+    <p style="margin-left:40px; margin-right:40px;">
+      While Caroline Rosenthal uses a lot of pathos as well in her article,
+        <span style="background-color:;" title = "Similarity to other students detected">I agree that the use of logos and ethos are very strong in this essay </span>.
+        Starting with the arrangement of the information that she structured, 
+        it is indeed very neat. The way <span style = "background-color:Tomato;" title = "Online source detected"> Rosenthal builds her arguments by
+        mingling historical facts and logical statements </span> successfully draws 
+        the attention of the reader and shows obvious use of logos. When 
+        Rosenthal was presenting the case of Archibald Belaney especially, the 
+        story was narrated in a very flowy way that I did not even realize that
+        there are also arguments inserted within the story. <mark title = "AI detected">Not only does
+        Rosenthal put citations from various sources and opinions from
+        experts and those of Native descent that construct the reader’s trust
+        of her article, but she also presents the opinion of the opposite side
+        and different point of view. </mark> I believe that this ability to be neutral
+        and provide all the perspectives towards the cases shows her 
+        credibility as an author. 
+ 
+    </p>
+  </div>
+</div>
