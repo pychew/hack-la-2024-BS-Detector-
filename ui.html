@@ -1,5 +1,11 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <style>
+  h1 {
+    font-family: "whitney";
+    font-weight: bold;
+    text-transform: uppercase;
+  }
   .title{
     color: beige;
   }
@@ -17,14 +23,14 @@
   }
   
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #97D4E9;
   }
   
   .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1e9e9;
+    background-color: white;
   }
   button, input[type="submit"], input[type="reset"] {
 	background: none;
@@ -45,17 +51,21 @@
   button, input[type="submit"], input[type="reset"] {
     background: none;
     color: inherit;
-    border: none;
-    padding: 0;
+    border: 1px solid white;
+    padding: 10px;
     font: inherit;
     cursor: pointer;
     outline: inherit;
-    border-radius: 2px;
+    border-radius: 5px;
     border-style: solid;
-    border: beige;
+    margin: 5px 0;
+    transition: background-color 0.3s;
 
-    <!-- HERE -->
   }
+
+  .id:hover{
+            background-color: rgba(255, 255, 255, 0.2);
+        }
   /*To style the table color*/
   table {
     border-collapse: collapse;
@@ -84,7 +94,7 @@
   /* Control the left side */
   .left {
     left: 0;
-    background-color: #111;
+    background-color: #002145;
   }
   
   /* Control the right side */
@@ -124,17 +134,17 @@
           <th>Other students</th>
         </tr>
         <tr>
-          <td> <button onclick="myFunction()">1234501</button></td>
-          <td> <div class="w3-light-grey">
-            <div class="w3-light-grey w3-round-xlarge">
-              <div class="w3-container w3-green w3-round-xlarge" style="width:100%">100% Original</div></td>
+          <td><i class="fa fa-flag" aria-hidden=""></i> <button id ="id" onclick="myFunction()">1234501</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-container w3-green w3-round-xlarge" style="width:100%">100% Original</div></td>
+            <div class="w3-container w3-green w3-round-xlarge" style="width:88%">88% Original</div></td>
+          <td> <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-green w3-round-xlarge" style="width:84%">84% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-container w3-green w3-round-xlarge" style="width:94%">94% Original</div></td>
+            <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
+          
         </tr>
         <tr>
-          <td> 1234502</td>
+          <td> <button id ="id" onclick="myFunction()">1234502</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
           <td> <div class="w3-light-grey w3-round-xlarge">
@@ -144,7 +154,7 @@
           
         </tr>
         <tr>
-          <td> 1234503</td>
+          <td> <button id ="id" onclick="myFunction()">1234503</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -153,7 +163,7 @@
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
         </tr>
         <tr>
-          <td> 1234504</td>
+          <td> <button id ="id" onclick="myFunction()">1234504</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-red w3-round-xlarge" style="width:16%">16% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -162,7 +172,7 @@
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:70%">70% Original</div></td>
         </tr>
         <tr>
-          <td> 1234505</td>
+          <td> <button id ="id" onclick="myFunction()">1234505</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-red w3-round-xlarge" style="width:37%">37% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -171,7 +181,7 @@
             <div class="w3-container w3-red w3-round-xlarge" style="width:30%">30% Original</div></td>
         </tr>
         <tr>
-          <td> 1234506</td>
+          <td> <button id ="id" onclick="myFunction()">1234506</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:55%">55% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -180,7 +190,7 @@
             <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
         </tr>
         <tr>
-          <td> 1234507</td>
+          <td> <button id ="id" onclick="myFunction()">1234507</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-red w3-round-xlarge" style="width:27%">27% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -189,7 +199,7 @@
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
         </tr>
         <tr>
-          <td> 1234508</td>
+          <td> <button id ="id" onclick="myFunction()">1234508</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-red w3-round-xlarge" style="width:47%">47% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -198,7 +208,7 @@
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:58%">58% Original</div></td>
         </tr>
         <tr>
-          <td> 1234509</td>
+          <td> <button id ="id" onclick="myFunction()">1234509</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-green w3-round-xlarge" style="width:83%">83% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -207,7 +217,7 @@
             <div class="w3-container w3-green w3-round-xlarge" style="width:90%">90% Original</div></td>
         </tr>
         <tr>
-          <td> 1234510</td>
+          <td> <button id ="id" onclick="myFunction()">1234510</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-green w3-round-xlarge" style="width:97%">97% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -216,7 +226,7 @@
             <div class="w3-container w3-green w3-round-xlarge" style="width:80%">80% Original</div></td>
         </tr>
         <tr>
-          <td> 1234511</td>
+          <td> <button id ="id" onclick="myFunction()">1234511</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:77%">77% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -225,7 +235,7 @@
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
         </tr>
         <tr>
-          <td> 1234512</td>
+          <td> <button id ="id" onclick="myFunction()">1234512</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-green w3-round-xlarge" style="width:87%">87% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -234,7 +244,7 @@
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
         </tr>
         <tr>
-          <td> 1234513</td>
+          <td> <button id ="id" onclick="myFunction()">1234513</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:53%">53% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -243,7 +253,7 @@
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:63%">63% Original</div></td>
         </tr>
         <tr>
-          <td> 1234514</td>
+          <td> <button id ="id" onclick="myFunction()">1234514</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:73%">73% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -252,7 +262,7 @@
             <div class="w3-container w3-yellow w3-round-xlarge" style="width:60%">60% Original</div></td>
         </tr>
         <tr>
-          <td> 1234515</td>
+          <td> <button id ="id" onclick="myFunction()">1234515</button></td>
           <td><div class="w3-light-grey w3-round-xlarge">
             <div class="w3-container w3-red w3-round-xlarge" style="width:19%">19% Original</div></td>
           <td><div class="w3-light-grey w3-round-xlarge">
@@ -749,10 +759,10 @@
 
 <div class="split right" id="myDIV">
   <div class="centered">
-    <h2>John Doe</h2>
+    <h2>Rosenthal's Rhetorical Triangle</h2>
     <p style="margin-left:40px; margin-right:40px;">
       While Caroline Rosenthal uses a lot of pathos as well in her article,
-        <span style="background-color:;" title = "Similarity to other students detected">I agree that the use of logos and ethos are very strong in this essay </span>.
+        <span style="background-color:#77eaca;" title = "Similarity to other students detected">I agree that the use of logos and ethos are very strong in this essay </span>.
         Starting with the arrangement of the information that she structured, 
         it is indeed very neat. The way <span style = "background-color:Tomato;" title = "Online source detected"> Rosenthal builds her arguments by
         mingling historical facts and logical statements </span> successfully draws 
@@ -768,5 +778,10 @@
         credibility as an author. 
  
     </p>
+    
+    <h3><strong>Similarity Students Detected: </strong>1234509</h3>
+    <p style="margin-left:60px; margin-right:40px;">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ip
+      <span style="background-color:#77eaca;" title = "Similarity to other students detected">I agree that the use of logos and ethos are very strong in this essay </span>. Lm Ipsum is simply dummy text of the printing and typesetting</p>
   </div>
 </div>
